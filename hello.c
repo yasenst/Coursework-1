@@ -10,6 +10,7 @@ void file_to_file(void);
 void file_to_screen(void);
 void keyboard_to_file(void);
 void keyboard_to_screen(void);
+void counter(FILE *fp, int *rows, int *semicolons, int *ifs, int *elseifs);
 
 
 int main()
